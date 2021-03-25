@@ -6,7 +6,7 @@
 /*   By: dmoutinh <dmoutinh@student.42lisboa.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/03/25 14:27:46 by dmoutinh          #+#    #+#             */
-/*   Updated: 2021/03/25 15:07:24 by dmoutinh         ###   ########.fr       */
+/*   Updated: 2021/03/25 17:45:42 by dmoutinh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,5 +17,9 @@
 #include <stdlib.h>
 #include <unistd.h>
 #include <fcntl.h>
+
+#ifndef BUFFER_SIZE
+#define BUFFER_SIZE 32
+#endif
 
 #endif
